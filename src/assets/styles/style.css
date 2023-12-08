@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #323232;
+}
+
+#root {
+  padding: 3rem;
+  text-align: center;
+  font-family: "Hedvig Letters Sans", Courier, monospace;
+}
+
+#root h1 {
+  margin: 0;
+  color: rgb(252, 144, 252);
+}
+
+#output {
+  padding: 0;
+  list-style: none;
+}
+
+#output .user {
+  color: rgba(252, 144, 252, 1);
+  font-weight: bold;
+}
+
+#clue {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+#clue input {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: rgb(252, 144, 252);
+  padding: 1rem 0.5rem;
+  font-size: inherit;
+  font-family: "Hedvig Letters Sans", monospace;
+  position: relative;
+}
+
+#clue input:focus {
+  color: rgb(252, 144, 252);
+}
+
+#clue::before {
+  content: "> ";
+  color: rgb(252, 144, 252);
+}
