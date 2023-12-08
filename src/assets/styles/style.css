@@ -22,11 +22,6 @@ body {
   list-style: none;
 }
 
-#output .user {
-  color: rgba(252, 144, 252, 1);
-  font-weight: bold;
-}
-
 #clue {
   display: flex;
   align-items: center;
